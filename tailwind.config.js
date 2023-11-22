@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       archivo: ["Archivo Black", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
     },
     extend: {},
   },
