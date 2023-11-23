@@ -1,5 +1,7 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
+import RecentWork from "./components/RecentWork";
+import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
       <Hero />
       <About />
       <Timeline />
+      <Skills />
+      <RecentWork />
     </div>
   );
 }

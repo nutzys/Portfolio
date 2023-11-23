@@ -16,7 +16,7 @@ const Timeline = () => {
         <h1 className="text-center text-6xl text-orange-600 font-montserrat font-semibold relative z-10">
           My Journey
         </h1>
-        <h1 className="absolute text-9xl whitespace-nowrap font-montserrat font-semibold tracking-widest text-zinc-900">
+        <h1 className="absolute text-8xl whitespace-nowrap font-montserrat font-semibold tracking-widest text-zinc-900 max-md:hidden block">
           My Journey
         </h1>
       </section>
@@ -163,7 +163,7 @@ const Timeline = () => {
           <h3 className="vertical-timeline-element-title">Practice</h3>
           <h4 className="vertical-timeline-element-subtitle">Latvia, Riga</h4>
           <p>Won a spot to join Vendon for practice. Joined Vendon</p>
-          <p className="text-orange-600">React.js</p>
+          <p className="text-orange-600">React.js, TypeScript</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -219,7 +219,7 @@ const Timeline = () => {
           </h4>
           <p>Joined Vidzeme University of Applied Sciences for IT Degree</p>
           <p className="text-orange-600">
-            Java (From lectures), React-Native (Self-taught)
+            Java (From lectures), React-Native, Node.js (Both Self-taught)
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

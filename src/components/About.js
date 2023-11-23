@@ -4,21 +4,24 @@ import Info from "./Info";
 
 const About = () => {
   return (
-    <main className="min-h-screen flex flex-col items-center bg-zinc-900 px-20 py-10 relative">
-      <section className="relative flex justify-center items-center">
-        <h1 className="text-center text-6xl text-orange-600 font-montserrat font-semibold relative z-10">
+    <main className="min-h-screen flex flex-col items-center bg-zinc-900 px-20 py-10 relative max-md:px-10">
+      <section className="relative flex justify-center items-center my-5">
+        <h1 className="text-center text-6xl text-orange-600 font-montserrat font-semibold relative z-10 max-md:mb-6">
           About Me
         </h1>
-        <h1 className="absolute text-9xl whitespace-nowrap font-montserrat font-semibold tracking-widest text-zinc-800">
+        <h1 className="absolute text-8xl whitespace-nowrap font-montserrat font-semibold tracking-widest text-zinc-800 max-md:hidden block">
           About Me
         </h1>
       </section>
-      <section className="flex flex-1 items-center space-x-20">
-        <aside className="flex-1 relative bg-red-50">
-          <img src={image} className="object-fit object-center relative z-10" />
-          <div className="w-full h-full border-4 border-orange-600 absolute left-10 top-16"></div>
+      <section className="flex flex-1 max-lg:flex-col items-center lg:space-x-20">
+        <aside className="relative flex-1">
+          <img
+            src={image}
+            className="object-fit object-center relative z-10 my-10"
+          />
+          <div className="w-full h-full border-4 border-orange-600 absolute left-10 top-16 max-lg:hidden block"></div>
         </aside>
-        <article className="flex-1">
+        <article className="flex-1 max-md:flex flex-col">
           <p className="text-gray-200 mb-4 text-2xl font-montserrat">
             My name is <span className="text-orange-600">Ulvis Dulbergs</span>
           </p>
