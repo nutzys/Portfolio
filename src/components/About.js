@@ -26,13 +26,19 @@ const About = () => {
             My name is <span className="text-orange-600">Ulvis Dulbergs</span>
           </p>
           <p className="text-gray-400 leading-8 font-montserrat">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Hello! I'm a 20 year old IT student from Latvia. Started my journey
+            back in 2019 when I joined technical school to get Programming
+            Technician qualification. Then started to take programming seriously
+            and became TOP 4 in the class. Our class was being mentored by CEO
+            of Draugiem Group - Agris Tamanis. Ever since I started, I enjoyed
+            the process of self-teaching. Been doing Udemy courses for a long
+            time now and understood that I can quickly adapt to new languages.
+            Been invited to best practice spots in Latvia to gain experience in
+            programming. I've tried game development, IoT, Web
+            Design/Development, Mobile Design/Development. Now when I joined
+            University I'm the best in the class and I help others to learn the
+            basics since I don't have to go to most of the lecures because of my
+            knowledge level.
           </p>
           <section className="flex flex-wrap mt-10">
             <section className="flex-1 space-y-5">

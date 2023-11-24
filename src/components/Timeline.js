@@ -32,9 +32,13 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
             Joined Vidzeme Technical And Design School for Programming
             Technician qualification
           </p>
@@ -51,13 +55,19 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
             Started to take programming seriously and being mentored by Agris
             Tamanis (CEO of Draugiem Group)
           </p>
-          <p className="text-orange-600">HTML, CSS, PHP, MYSQL</p>
+          <p className="text-orange-600 font-montserrat">
+            HTML, CSS, PHP, MYSQL
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -74,9 +84,15 @@ const Timeline = () => {
             src={clock}
             className="h-52 w-full object-cover object-center rounded-md mb-4"
           />
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>Placed TOP 3 in programming from class and won a prize</p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
+            Placed TOP 3 in programming from class and won a prize
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -93,9 +109,15 @@ const Timeline = () => {
             src={macbook}
             className="h-52 w-full object-cover object-center rounded-md mb-4"
           />
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>Placed TOP 1 in programming from class and won a Macbook Air</p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
+            Placed TOP 1 in programming from class and won a Macbook Air
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -112,9 +134,15 @@ const Timeline = () => {
             src={oculus}
             className="h-52 w-full object-cover object-center rounded-md mb-4"
           />
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>Placed TOP 1 in programming from class and won a Oculus Quest 2</p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
+            Placed TOP 1 in programming from class and won a Oculus Quest 2
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -127,9 +155,13 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Practice</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Riga</h4>
-          <p>Invited to join Mapon for practice.</p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Practice
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Riga
+          </h4>
+          <p className="font-montserrat">Invited to join Mapon for practice.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -142,12 +174,14 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Practice</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Practice
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
             Latvia, Valmiera
           </h4>
-          <p>Bootcamp at Accenture on .NET</p>
-          <p className="text-orange-600">C#</p>
+          <p className="font-montserrat">Bootcamp at Accenture on .NET</p>
+          <p className="text-orange-600 font-montserrat">C#</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -160,10 +194,18 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Practice</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Riga</h4>
-          <p>Won a spot to join Vendon for practice. Joined Vendon</p>
-          <p className="text-orange-600">React.js, TypeScript</p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Practice
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Riga
+          </h4>
+          <p className="font-montserrat">
+            Won a spot to join Vendon for practice. Joined Vendon
+          </p>
+          <p className="text-orange-600 font-montserrat">
+            React.js, TypeScript
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -176,11 +218,13 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Practice</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Practice
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
             Portugal, Montijo/Lisbon
           </h4>
-          <p>Practice in Portugal at ChipStorm</p>
+          <p className="font-montserrat">Practice in Portugal at ChipStorm</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -193,12 +237,16 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Graduate</h3>
-          <h4 className="vertical-timeline-element-subtitle">Latvia, Cesis</h4>
-          <p>
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Graduate
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
+            Latvia, Cesis
+          </h4>
+          <p className="font-montserrat">
             Graduated Technical School with Programming Technician Qualification
           </p>
-          <p className="text-orange-600">
+          <p className="text-orange-600 font-montserrat">
             Laravel, TailwindCSS (Both Self-taught)
           </p>
         </VerticalTimelineElement>
@@ -213,12 +261,16 @@ const Timeline = () => {
           iconStyle={{ background: "#ea580c", color: "#fff" }}
           icon={<AcademicCapIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Student</h3>
-          <h4 className="vertical-timeline-element-subtitle">
+          <h3 className="vertical-timeline-element-title font-montserrat">
+            Student
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle font-montserrat">
             Latvia, Valmiera
           </h4>
-          <p>Joined Vidzeme University of Applied Sciences for IT Degree</p>
-          <p className="text-orange-600">
+          <p className="font-montserrat">
+            Joined Vidzeme University of Applied Sciences for IT Degree
+          </p>
+          <p className="text-orange-600 font-montserrat">
             Java (From lectures), React-Native, Node.js (Both Self-taught)
           </p>
         </VerticalTimelineElement>

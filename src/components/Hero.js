@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import svg from "../images/undraw_programming_re_kg9v.svg";
+import CV from "../assets/CVEng.docx";
 
 const Hero = () => {
   return (
@@ -16,7 +17,9 @@ const Hero = () => {
               <span className="text-orange-600">.</span>
             </span>
             <div className="mt-5">
-              <Button title="CONTACT ME" />
+              <a href={CV} download="CV">
+                <Button title="Download CV" />
+              </a>
             </div>
           </section>
           <section className="flex-1">
